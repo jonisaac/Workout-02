@@ -22,11 +22,11 @@ ui <- fluidPage(
     column(4, 
   sliderInput(inputId = "n",
               "Initial Amount", value = 1000, min = 0, max = 100000, step = 500),
-  sliderInput(inputId = "q", "Annual Contribution", min = 0, max = 50000, step = 500, value = 200)
+  sliderInput(inputId = "q", "Annual Contribution", min = 0, max = 50000, step = 500, value = 2000)
   ),
   column(4, 
   sliderInput(inputId = "r", "Return Rate(in %)", min = 0, max = 20, step = .1, value = 5),
-  sliderInput(inputId = "growth", "Growth Rate(in %)", min = 0, max = 20, step = .1, value = 5.1)
+  sliderInput(inputId = "growth", "Growth Rate(in %)", min = 0, max = 20, step = .1, value = 2)
   ),
   column(4, 
   sliderInput(inputId = "y", "Years", value = 20, min = 0, max = 50),

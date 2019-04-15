@@ -5,6 +5,8 @@ account: jonisaac
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 863163
-bundleId: 2009330
+bundleId: 2013969
 url: https://jonisaac.shinyapps.io/workout2/
-when: 1555221064.61733
+when: 1555368880.92962
+asMultiple: FALSE
+asStatic: FALSE
